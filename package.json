@@ -1,0 +1,28 @@
+{
+  "name": "visual-algorithms",
+  "version": "1.0.0",
+  "description": "A nice visualisation of various algorithms",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "fast-json-patch": "2.1.0",
+    "lodash": "^4.17.11",
+    "plotly.js": "1.46.1",
+    "rxjs": "6.4.0"
+  },
+  "devDependencies": {
+    "@types/plotly.js": "1.44.1",
+    "ts-loader": "5.3.3",
+    "typescript": "3.4.2",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.3.0",
+    "worker-loader": "2.0.0"
+  }
+}
